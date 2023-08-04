@@ -672,7 +672,7 @@ setScreenStressTesterSUHU:
   if (digitalRead(Pb_BACK) == tekan)
   {
     delay(BOUNCE);
-    while (digitalRead(Pb_BACK) == tekan )
+    while (digitalRead(Pb_BACK) == tekan)
     {
       goto setScreenCekStress;
     }
